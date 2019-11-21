@@ -16,7 +16,7 @@ public class LoginPage  extends Page{
 		Page.click("signbtn_XPATH");
 		Page.click("atsbutton_XPATH");
 		
-		System.out.println("Logged ID");
+		
 		return new ATSHomePage();
 	}
 	

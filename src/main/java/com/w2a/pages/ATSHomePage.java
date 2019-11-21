@@ -18,13 +18,13 @@ public class ATSHomePage  extends Page{
 
 		//Get the list of window handles
 		ArrayList<String> tabs = new ArrayList<String> (driver.getWindowHandles());
-		System.out.println(tabs.size());
+		//System.out.println(tabs.size());
 		//Use the list of window handles to switch between windows
 		driver.switchTo().window(tabs.get(1));
 		System.out.println("Login Validation Start");
 		Thread.sleep(4000);
 		WebElement dd = find_element("dropdown_XPATH");
-		System.out.println("Login Validation End");
+		System.out.println("Login Validation Ends Sucessfully");
 		return dd;
 		
 	}
