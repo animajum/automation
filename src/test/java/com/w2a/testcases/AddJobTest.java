@@ -33,7 +33,7 @@ public class AddJobTest extends BaseTest {
 		try {
 			String url = ajp.addGeneralInfo(data.get("JobTitle"),data.get("ClientName"),data.get("ClientContact"),data.get("EmpType"),data.get("Function"),data.get("ProductType"),data.get("OppID"),data.get("NoOfOpen"),data.get("Status"),data.get("JobSkill"));
 			Assert.assertTrue(url.contains("viewJob"));
-			System.out.println("Candidate ID : " + url.substring(36, 41));
+			System.out.println("Job ID : " + url.substring(38, url.length()-1));
 		} catch (Exception e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
