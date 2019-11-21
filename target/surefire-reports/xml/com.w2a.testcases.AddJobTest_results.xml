@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Add Job Test"
+           tests="2"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="40.400">
+  <properties />
+  
+  
+            <testcase name="openAddJobPageTest" time="0.419" classname="com.w2a.testcases.AddJobTest" />
+                <testcase name="AddJobInfoTest" time="39.981" classname="com.w2a.testcases.AddJobTest" />
+      
+</testsuite>

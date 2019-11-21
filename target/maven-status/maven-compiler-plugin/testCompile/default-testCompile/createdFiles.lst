@@ -1,0 +1,9 @@
+com\w2a\testcases\AddCandidateTest.class
+com\w2a\testcases\ViewCandidateTest.class
+com\w2a\testcases\AddJobTest.class
+com\w2a\rough\LoginTest.class
+com\w2a\testcases\AddNoteTest.class
+com\w2a\testcases\AddPlacementTest.class
+com\w2a\testcases\AddLeadTest.class
+com\w2a\testcases\BaseTest.class
+com\w2a\testcases\LoginTest.class

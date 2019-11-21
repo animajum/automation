@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[Click to see Screenshot]]>
+    </line>
+    <line>
+      <![CDATA[<a target="_blank" href=Thu_Nov_21_19_39_46_IST_2019.png>Screenshot</a>]]>
+    </line>
+    <line>
+      <![CDATA[<br>]]>
+    </line>
+    <line>
+      <![CDATA[<br>]]>
+    </line>
+    <line>
+      <![CDATA[<a target="_blank" href=Thu_Nov_21_19_39_46_IST_2019.png><img src=Thu_Nov_21_19_39_46_IST_2019.png height=200 width=200></img></a>]]>
+    </line>
+    <line>
+      <![CDATA[Click to see Screenshot]]>
+    </line>
+    <line>
+      <![CDATA[<a target="_blank" href=Thu_Nov_21_19_39_47_IST_2019.png>Screenshot</a>]]>
+    </line>
+    <line>
+      <![CDATA[<br>]]>
+    </line>
+    <line>
+      <![CDATA[<br>]]>
+    </line>
+    <line>
+      <![CDATA[<a target="_blank" href=Thu_Nov_21_19_39_47_IST_2019.png><img src=Thu_Nov_21_19_39_47_IST_2019.png height=200 width=200></img></a>]]>
+    </line>
+    <line>
+      <![CDATA[Click to see Screenshot]]>
+    </line>
+    <line>
+      <![CDATA[<a target="_blank" href=Thu_Nov_21_19_40_28_IST_2019.png>Screenshot</a>]]>
+    </line>
+    <line>
+      <![CDATA[<br>]]>
+    </line>
+    <line>
+      <![CDATA[<br>]]>
+    </line>
+    <line>
+      <![CDATA[<a target="_blank" href=Thu_Nov_21_19_40_28_IST_2019.png><img src=Thu_Nov_21_19_40_28_IST_2019.png height=200 width=200></img></a>]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2019-11-21T14:09:30Z" name="ATS Job, Candidate , Note" finished-at="2019-11-21T14:10:28Z" duration-ms="58244">
+    <groups>
+    </groups>
+    <test started-at="2019-11-21T14:09:30Z" name="Login Test" finished-at="2019-11-21T14:09:47Z" duration-ms="17026">
+      <class name="com.w2a.testcases.LoginTest">
+        <test-method signature="loginTest(java.util.Hashtable)[pri:0, instance:com.w2a.testcases.LoginTest@1efdcd5]" started-at="2019-11-21T19:39:30Z" name="loginTest" data-provider="dp" finished-at="2019-11-21T19:39:46Z" duration-ms="16371" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{password=mshG@2*19, runmode=Y, username=alice}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Click to see Screenshot]]>
+            </line>
+            <line>
+              <![CDATA[<a target="_blank" href=Thu_Nov_21_19_39_46_IST_2019.png>Screenshot</a>]]>
+            </line>
+            <line>
+              <![CDATA[<br>]]>
+            </line>
+            <line>
+              <![CDATA[<br>]]>
+            </line>
+            <line>
+              <![CDATA[<a target="_blank" href=Thu_Nov_21_19_39_46_IST_2019.png><img src=Thu_Nov_21_19_39_46_IST_2019.png height=200 width=200></img></a>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+      </class> <!-- com.w2a.testcases.LoginTest -->
+    </test> <!-- Login Test -->
+    <test started-at="2019-11-21T14:09:47Z" name="Add Job Test" finished-at="2019-11-21T14:10:28Z" duration-ms="41191">
+      <class name="com.w2a.testcases.AddJobTest">
+        <test-method signature="openAddJobPageTest()[pri:0, instance:com.w2a.testcases.AddJobTest@5a865416]" started-at="2019-11-21T19:39:47Z" name="openAddJobPageTest" finished-at="2019-11-21T19:39:47Z" duration-ms="419" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Click to see Screenshot]]>
+            </line>
+            <line>
+              <![CDATA[<a target="_blank" href=Thu_Nov_21_19_39_47_IST_2019.png>Screenshot</a>]]>
+            </line>
+            <line>
+              <![CDATA[<br>]]>
+            </line>
+            <line>
+              <![CDATA[<br>]]>
+            </line>
+            <line>
+              <![CDATA[<a target="_blank" href=Thu_Nov_21_19_39_47_IST_2019.png><img src=Thu_Nov_21_19_39_47_IST_2019.png height=200 width=200></img></a>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- openAddJobPageTest -->
+        <test-method signature="AddJobInfoTest(java.util.Hashtable)[pri:0, instance:com.w2a.testcases.AddJobTest@5a865416]" started-at="2019-11-21T19:39:48Z" name="AddJobInfoTest" data-provider="dp" finished-at="2019-11-21T19:40:28Z" depends-on-methods="com.w2a.testcases.AddJobTest.openAddJobPageTest" duration-ms="39981" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{Function=IT, EmpType=Direct Hire, ClientName=Interval Leisure Group, ClientContact=Connie Gonzalez, NoOfOpen=1.0, JobSkill=SQL, JobTitle=Senior QA Analyst, Status=Open, ProductType=Staffing, OppID=86}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Click to see Screenshot]]>
+            </line>
+            <line>
+              <![CDATA[<a target="_blank" href=Thu_Nov_21_19_40_28_IST_2019.png>Screenshot</a>]]>
+            </line>
+            <line>
+              <![CDATA[<br>]]>
+            </line>
+            <line>
+              <![CDATA[<br>]]>
+            </line>
+            <line>
+              <![CDATA[<a target="_blank" href=Thu_Nov_21_19_40_28_IST_2019.png><img src=Thu_Nov_21_19_40_28_IST_2019.png height=200 width=200></img></a>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- AddJobInfoTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.w2a.testcases.AddJobTest@5a865416]" started-at="2019-11-21T19:40:28Z" name="tearDown" finished-at="2019-11-21T19:40:28Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.w2a.testcases.AddJobTest -->
+    </test> <!-- Add Job Test -->
+  </suite> <!-- ATS Job, Candidate , Note -->
+</testng-results>
